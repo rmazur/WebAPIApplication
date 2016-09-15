@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJyCwcsEc4USyCnKmkSHHVwAAAAACAAAAAAAQZgAAAAEAACAAAADu9XrNMPXY7/GELpWdpa+1rBeeisbbVkpAAeSkzGlt6wAAAAAOgAAAAAIAACAAAADLzBhExp+0yumMiptJWcFL8CxmHe5wPTIS4OWc2Cph54AAAABPtiUGj88spLv+foGbcnz4F7cpQyllMqzpWcfBQaK4hnIMKEdI1n2UamJzMY9skX12a2K3tNw4CvpfDFv/boExk07XVRj4omnaqM32zuXaxv4P+KJSFqCTwxGH1SRW53vWCPOsn5W7q1viNjOCXuiLrfpd2WXXqJtbUnYNfjmiPkAAAAANUVDlqnbnbpimIWGaOwKRTCHLqpnOcQ54ixZGWnwebS2cljY/MsSbRfn3+0eSBe80dbUlzBzI71rxvuRkvJ1s</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EfMigrations Include="WebAPIApplication.Models.PhotoContext">
+      <Value>Data Source=tcp:webapiapplication20160914124807dbserver.database.windows.net,1433;Initial Catalog=WebAPIApplication20160914124807_db;User Id=rmazur@webapiapplication20160914124807dbserver;Password=Elisa@28</Value>
+    </EfMigrations>
+  </ItemGroup>
+</Project>
